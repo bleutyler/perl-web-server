@@ -1,0 +1,33 @@
+
+<h1> Pure Perl Web Server </h1>
+
+<p> Version 1.0.1 </p>
+
+<p> This is an <u>alpha release</u> </p>
+
+<h2> What this is </h2> 
+
+<p> This is an exercise in Perl, to get experience with the raw Sockets and Forking.
+This is also a brush up on C, as most of the functions in Perl to do these actions are very similar
+to their C language counterparts.
+</p>
+
+    <h2> Features: </h2>
+
+The server will create a child process to handle each request.  Once a connection is made,
+the parent will fork and delegate a child process to actually fulfill the request on the connection.
+Leaving the main server to process connections only.  
+</p>
+
+<hr> 
+
+<h3> To Do: </h3>
+
+<ul>
+    <li> Proper "Usage:" Documentation  </li>
+    <li> Proper implementation of a --debug flag </li>
+    <li> Proper implementation of a --verbose flag </li>
+    <li> POD for all methods </li>
+    <li> Plan out how to implement your own
+</ul>
+
